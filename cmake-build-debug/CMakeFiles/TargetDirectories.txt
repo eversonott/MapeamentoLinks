@@ -1,0 +1,4 @@
+/home/matrix15/ClionProjects/ic2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/matrix15/ClionProjects/ic2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/matrix15/ClionProjects/ic2/cmake-build-debug/CMakeFiles/ic2.dir
+/home/matrix15/ClionProjects/ic2/cmake-build-debug/CMakeFiles/main.dir

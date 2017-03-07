@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ic2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5WebKit\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5WebKitWidgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ic2">
+				<Option output="/home/matrix15/ClionProjects/ic2/cmake-build-debug/ic2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5WebKitWidgets_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Webkit_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Network_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Widgets_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Xml_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Core_INCLUDE_DIRS}"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ic2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ic2/fast">
+				<Option output="/home/matrix15/ClionProjects/ic2/cmake-build-debug/ic2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5WebKitWidgets_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Webkit_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Network_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Widgets_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Xml_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Core_INCLUDE_DIRS}"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ic2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/matrix15/ClionProjects/ic2/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_XML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_WEBKITWIDGETS_LIB"/>
+					<Add option="-DQT_WEBKIT_LIB"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5WebKitWidgets_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Webkit_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Network_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Widgets_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Xml_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Core_INCLUDE_DIRS}"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWebKitWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWebKit"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/matrix15/ClionProjects/ic2/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matrix15/ClionProjects/ic2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_XML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_WEBKITWIDGETS_LIB"/>
+					<Add option="-DQT_WEBKIT_LIB"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5WebKitWidgets_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Webkit_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Network_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Widgets_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Xml_INCLUDE_DIRS}"/>
+					<Add directory="/home/matrix15/ClionProjects/ic2/{Qt5Core_INCLUDE_DIRS}"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWebKitWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWebKit"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matrix15/ClionProjects/ic2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/main.cpp">
+			<Option target="ic2"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5WebKit/Qt5WebKitConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5WebKit\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5WebKit/Qt5WebKitConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5WebKit\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5WebKitWidgets\"/>
+		</Unit>
+		<Unit filename="/home/matrix15/ClionProjects/ic2/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5WebKitWidgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

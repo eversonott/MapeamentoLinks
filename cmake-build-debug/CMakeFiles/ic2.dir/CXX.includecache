@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matrix15/ClionProjects/ic2/main.cpp
+iostream
+-
+curl/curl.h
+-
+curlpp/cURLpp.hpp
+-
+string
+-
+
