@@ -814,6 +814,9 @@ Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
+//The directory containing a CMake configuration file for Qt5List.
+Qt5List_DIR:PATH=Qt5List_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt5Network.
 Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
 
@@ -831,6 +834,12 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5Xml.
 Qt5Xml_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml
+
+//The directory containing a CMake configuration file for QtCore.
+QtCore_DIR:PATH=QtCore_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for QtList.
+QtList_DIR:PATH=QtList_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for QtNetwork.
 QtNetwork_DIR:PATH=QtNetwork_DIR-NOTFOUND

@@ -39,6 +39,10 @@ QWebFrame
 -
 QUrl
 -
+QtWidgets/QApplication
+-
+QList
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 qbytearray.h
@@ -3627,6 +3631,30 @@ QtGui/qpainter.h
 -
 QtNetwork/qnetworkaccessmanager.h
 -
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+qapplication.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 QtWidgets/qwidget.h
 -
 

@@ -15,7 +15,10 @@
 #include <QWebView>
 #include <QWebFrame>
 #include <QUrl>
+#include <QtWidgets/QApplication>
+#include <QList>
 
+//svm
 using namespace std;
 
 size_t func(void* dados, size_t size, size_t nemb, string *saida){
@@ -39,7 +42,79 @@ string getHTML(const char* url){
     return STR;
 }
 
-int main() {
+
+//Qlist<QString>* listaUrl;
+
+vector<string> lista;
+/*void proxima(auto p){
+    p.mainFrame()->load(QUrl("https://www.google.com.br"))
+}
+*/
+
+int main(int argc, char *argv[]) {
+
+    vector<string> lista;
+    string raiz ="https://www.google.com.br";
+
+    lista.push_back(raiz);
+
+        while(!lista.empty()) {
+            QApplication app(argc, argv);
+
+            QWebPage p;
+            p.mainFrame()->load(QUrl(lista.front().c_str()));
+            lista.erase(lista.begin());
+
+            if (p.mainFrame() == NULL) {
+                cout << "null";
+            }
+
+            QObject::connect(&p, &QWebPage::loadProgress, [](int i) {
+                cout << "progresso " << i << "\n";
+                fflush(stdout);
+            });
+
+
+            QObject::connect(&p, &QWebPage::loadFinished, [&lista, &p](bool acabou) {
+
+                //cout << p.mainFrame()->toPlainText().toStdString();
+                for (auto l : p.mainFrame()->findAllElements("a")) {
+                    //cout << l.attribute("href").toStdString() << endl;
+
+                    lista.push_back(l.attribute("href").toStdString());
+
+
+                }
+                //cout<<lista.front();
+                //cout<<lista.size();
+
+                for (int i = 0; i < lista.size(); i++) {
+
+                    cout << lista.at(i) << endl;
+
+                }
+                cout<<lista.size();
+
+                //cout << "teste" << p.mainFrame()->toHtml().toStdString() << "\n";
+                fflush(stdout);
+                //proxima();
+
+            });
+
+            //proxima();
+
+
+
+            //p.mainFrame()->findAllElements("a");
+
+            return app.exec();
+        }
+
+
+
+}
+
+int main2() {
 
 
 
@@ -60,7 +135,7 @@ int main() {
 
         QString array(resultado.c_str());
 
-        //QWebFrame::setHtml(array,QUrl(raiz.c_str()));
+        
 
         QDomDocument d("doc");
 

@@ -9,6 +9,9 @@ find_package(Qt5Network)
 find_package(Qt5WebKit)
 find_package(Qt5WebKitWidgets)
 
+
+
+
 include_directories({Qt5WebKitWidgets_DIRS})
 include_directories({Qt5Webkit_INCLUDE_DIRS})
 include_directories({Qt5Network_INCLUDE_DIRS})
@@ -17,8 +20,7 @@ include_directories({Qt5Xml_INCLUDE_DIRS})
 include_directories({Qt5Core_INCLUDE_DIRS})
 include_directories(${CURL_INCLUDE_DIRS})
 
-#set(CMAKE_CXX_STANDARD 11)
-
+set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES main.cpp)
 
 

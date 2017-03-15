@@ -376,6 +376,9 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWebKitWidgets/qwebframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWebKitWidgets/qwebpage.h
  /usr/include/x86_64-linux-gnu/qt5/QtWebKitWidgets/qwebview.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QDomDocument
