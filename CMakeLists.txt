@@ -8,6 +8,7 @@ find_package(Qt5Xml)
 find_package(Qt5Network)
 find_package(Qt5WebKit)
 find_package(Qt5WebKitWidgets)
+find_package(lemon)
 
 
 

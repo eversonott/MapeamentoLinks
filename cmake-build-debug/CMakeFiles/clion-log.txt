@@ -1,4 +1,21 @@
 /home/matrix15/Downloads/i/clion-2016.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/matrix15/ClionProjects/ic2
+CMake Warning at CMakeLists.txt:11 (find_package):
+  By not providing "Findlemon.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "lemon", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "lemon" with any of
+  the following names:
+
+    lemonConfig.cmake
+    lemon-config.cmake
+
+  Add the installation prefix of "lemon" to CMAKE_PREFIX_PATH or set
+  "lemon_DIR" to a directory containing one of the above files.  If "lemon"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
 -- 
 -- Configuring done
 -- Generating done

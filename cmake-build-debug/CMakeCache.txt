@@ -859,6 +859,9 @@ ic2_BINARY_DIR:STATIC=/home/matrix15/ClionProjects/ic2/cmake-build-debug
 //Value Computed by CMake
 ic2_SOURCE_DIR:STATIC=/home/matrix15/ClionProjects/ic2
 
+//The directory containing a CMake configuration file for lemon.
+lemon_DIR:PATH=lemon_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for sfsafdsfsa.
 sfsafdsfsa_DIR:PATH=sfsafdsfsa_DIR-NOTFOUND
 

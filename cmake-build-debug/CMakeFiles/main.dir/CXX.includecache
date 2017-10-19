@@ -41,7 +41,11 @@ QUrl
 -
 QtWidgets/QApplication
 -
-QList
+lemon/list_graph.h
+-
+lemon/concepts/graph.h
+-
+map
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
